@@ -61,7 +61,6 @@ var canvasFactory = (function()
 	{
 		if(settings.fullscreen)
 		{
-			//var pageSize =  GetPageDimensions();				
 			canvas.style.width = "100%";
 			canvas.style.height = "100%";
 		}
@@ -135,13 +134,6 @@ var canvasFactory = (function()
 		canvas.style.height = canvasHeight + "px";
 		canvas.style.top = canvasTop + "px";
 		canvas.style.left = canvasLeft + "px";
-	
-		/*
-		canvas.style.width = (canvasWidth / pageWidth * 100) + "%";
-		canvas.style.height = (canvasHeight / pageHeight * 100) + "%";
-		canvas.style.top = (canvasTop / pageHeight * 100) + "%";
-		canvas.style.left = (canvasLeft / pageWidth * 100) + "%";
-		*/
 	}
 	
 	function GetCanvas(index)
